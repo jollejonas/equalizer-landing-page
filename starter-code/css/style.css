@@ -1,0 +1,75 @@
+body {
+  width: 100%;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+main {
+  background-image: url("../assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 0px -300px;
+  width: 375px;
+  margin: 40px auto 0 auto;
+}
+main .top-textarea {
+  padding-top: 40px;
+  margin: 0 24px 0 24px;
+}
+main .top-textarea h1 {
+  letter-spacing: -1px;
+  line-height: 40px;
+  font-size: 40px;
+  color: #191826;
+}
+main .top-textarea p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+main .download-show-container {
+  width: 100%;
+  margin-top: 80px;
+}
+main .download-show-container .phone-img img {
+  width: 235px;
+  margin: 0 70px;
+}
+main .download-show-container .box1 {
+  position: relative;
+  margin-top: -375px;
+  width: 100%;
+  height: 100%;
+  background-color: #191826;
+  border-radius: 20px;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+main .download-show-container .box1 img {
+  vertical-align: baseline;
+}
+main .download-show-container .box2 {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  background-color: #fa7352;
+  border-radius: 20px;
+  color: #fcf9f8;
+}
+main .download-show-container .box2 .bottom-textarea {
+  padding-top: 40px;
+  margin: 0 24px 0 24px;
+}
+main .download-show-container .box2 .bottom-textarea h2 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}
+main .download-show-container .box2 .bottom-textarea p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/*# sourceMappingURL=style.css.map */
