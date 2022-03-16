@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Equalizer landing page</title>
 </head>
@@ -27,7 +27,7 @@
         bass, mids, treble, gain control, reverb, and more!</p>
     </div>
 
-    <div class="download-show-container">
+    <div class="info-container">
       <div class="phone-img">
         <img src="./assets/illustration-app.png">
       </div>
@@ -35,22 +35,39 @@
         <img src="./assets/bg-pattern-2.svg">
       </div>
       <div class="box2">
-        <div class="bottom-textarea">
-          <h2>Premium EQ</h2>
+        <div class="bottom-text-container">
+          <h1>Premium EQ</h1>
 
           <p>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take
             your listening experience to a whole new level and access all our incredible features!</p>
 
-          $4 / month
-
-          iOS Download
-          Android Download
+        </div>
+        <div class="download-container">
+          <div class="price-container">
+            <h1>$4 </h1>
+            <p>/ month</p>
+          </div>
+          <a href="#"><div class="button" id="ios"><img src="./assets/icon-apple.svg">&nbsp iOS Download</div></a>
+          <a href="#"><div class="button" id="android"><img src="./assets/icon-android.svg">&nbsp Android Download</div></a>
         </div>
       </div>
     </div>
   </main>
-  <footer> All rights reserved © Equalizer 2021
-    Have any problems? Contact us via social media or email us at equalizer@example.com
+  <footer>
+    <div class="bottom-text-container">
+      <div class="logo">
+        <img src="./assets/logo.svg" alt="equalizer logo">
+      </div>
+      <p>All rights reserved © Equalizer 2021
+        Have any problems? Contact us via social media or email us at <br>
+        <span class="email">equalizer@example.com</span>
+      </p>
+      <div class="social">
+        <a href="#"><img src="assets/icon-facebook.svg"></a>
+        <a href="#"><img src="assets/icon-instagram.svg"></a>
+        <a href="#"><img src="assets/icon-twitter.svg"></a>
+      </div>
+    </div>
   </footer>
 </body>
 
